@@ -2,8 +2,9 @@
 ### Program Description:
 * We made a program for bookstore, in which we implemented security options of login to use the program. We have divided the program into two user. One is default “admin” and second user we set. At first run we have to setup username and password for user, after setting up the user, will be asked to login. As we login for first time you will be logged into admin where we need to Input book details. After adding book details, we can directly move to bookstore using Redirect option. As we move to Bookstore, we now have access to normal user, and we can’t revert to admin. From user section we can ***PURCHASE*** the book we want. We can see how many books are available in store through ***DETAIL OF BOOKS*** option. We can search for books using any ***KEYWORDS***. There's also option called ***OTHERS*** which has specified operation as per our problem statement. and ***EXIT***. Now for admin section we must exit the store and login with admin credentials to get into admin section. In ***admin*** we have options for adding new book which we can use to enter book details. We can update the book stock and book price from ***UPDATE RECORD*** option. We can change password for user if user forgets password from ***CHANGE PASSWORD*** option. We have one special option to directly move to BOOKSTORE(which we called user section) through ***REDIRECTION*** option and Last is ***EXIT***. and We comiled it all into Standalone Executable Format(.exe)
 
-### Program Code Flow:
+### Code Flow:
 ```
+Start:
 |
 |__Struct book: Here we declared variables for book details.
 |
