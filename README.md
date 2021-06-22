@@ -1,4 +1,29 @@
 # BOOKSTORE-ATHSOVIN
+
+### Program Statement:
+A book shop maintains the inventory of books that are being sold at the shop. The
+list includes details such as author, title, price, publisher and stock position.
+Whenever a customer wants a book, the sales person inputs the title and author and
+the system searches the list and displays whether it is available or not. If it is not, an
+appropriate message is displayed. If it is, then the system displays the book details
+and requests for the number of copies required. If the requested copies are available,
+the total cost of the required copies is displayed, otherwise the message “Sorry!
+These many copies are not in stock” is displayed. Design a system using a class
+called stock with suitable member functions and constructors.
+
+|   `Specific task Group Member-1`   |
+|:--------------------------------|
+|   1. Display all the books whose author name is ‘Nark John’.   |
+|   2. Display all the books along with their author, title, price and publisher sorted according to price lowest to highest.   |
+|   3. Display all the books whose copies are not available in the stock.   |
+|  `Specific task Group Member-2`  |
+|   4. Display all the books whose names start with ‘S’.   |
+|   5. Display all the details of the books whose publisher name is ‘SChand’.   |
+|   6. Display all the books whose price is between 100 to 500.   |
+|  `Specific task Group Member-3`  |
+|   7. Display all the books whose title is between 10-20 characters.   |
+|   8. Display all the books which are currently not available in the stock.   |
+
 ### Program Description:
 * We made a program for bookstore, in which we implemented security options of login to use the program. We have divided the program into two user. One is default “admin” and second user we set. At first run we have to setup username and password for user, after setting up the user, will be asked to login. As we login for first time you will be logged into admin where we need to Input book details. After adding book details, we can directly move to bookstore using Redirect option. As we move to Bookstore, we now have access to normal user, and we can’t revert to admin. From user section we can ***PURCHASE*** the book we want. We can see how many books are available in store through ***DETAIL OF BOOKS*** option. We can search for books using any ***KEYWORDS***. There's also option called ***OTHERS*** which has specified operation as per our problem statement. and ***EXIT***. Now for admin section we must exit the store and login with admin credentials to get into admin section. In ***admin*** we have options for adding new book which we can use to enter book details. We can update the book stock and book price from ***UPDATE RECORD*** option. We can change password for user if user forgets password from ***CHANGE PASSWORD*** option. We have one special option to directly move to BOOKSTORE(which we called user section) through ***REDIRECTION*** option and Last is ***EXIT***. and We comiled it all into Standalone Executable Format(.exe)
 
