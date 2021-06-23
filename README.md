@@ -30,7 +30,8 @@ called stock with suitable member functions and constructors.
 3. [Atharv Shirke](https://github.com/AtharvShirke9)
 
 ### Program Description:
-* We made a program for bookstore, in which we implemented security options of login to use the program. We have divided the program into two user. One is default “admin” and second user we set. At first run we have to setup username and password for user, after setting up the user, will be asked to login. As we login for first time you will be logged into admin where we need to Input book details. After adding book details, we can directly move to bookstore using Redirect option. As we move to Bookstore, we now have access to normal user, and we can’t revert to admin. From user section we can ***PURCHASE*** the book we want. We can see how many books are available in store through ***DETAIL OF BOOKS*** option. We can search for books using any ***KEYWORDS***. There's also option called ***OTHERS*** which has specified operation as per our problem statement. and ***EXIT***. Now for admin section we must exit the store and login with admin credentials to get into admin section. In ***admin*** we have options for adding new book which we can use to enter book details. We can update the book stock and book price from ***UPDATE RECORD*** option. We can change password for user if user forgets password from ***CHANGE PASSWORD*** option. We have one special option to directly move to BOOKSTORE(which we called user section) through ***REDIRECTION*** option and Last is ***EXIT***. and We comiled it all into Standalone Executable Format(.exe)
+* We made a program for the bookstore, in which we implemented security options of login to use the program. We have divided the program into two users. One is default “admin” and the second user we set. On the first run, we have to set up a username and password for a user, after setting up the user, will be asked to log in. As we log in, for the first time you will be logged into admin where we need to Input book details. After adding book details, We have to log out from **ADMIN** and have log in to **USER** for using the user section. From the user section, we can **PURCHASE** the book we want. We can see how many books are available in-store through the **DETAIL OF BOOKS** option. We can search for books, using any **KEYWORDS**. There is an option called **OTHERS** which has specified operation as per our problem statement. We also have a **LOGOUT** option to log out from the program and **EXIT** for terminating the program. For the admin section, we must log out from the store and log in with admin credentials to get into the admin section. In the **ADMIN** section, we have options for adding a new book which we can use to enter book details. We can update the book stock and book price from the **UPDATE RECORD** option. We can change the password for the user if the user forgets the password from the **CHANGE PASSWORD** option. We also have a **LOGOUT** option to log out from the program and **EXIT** for terminating the program. and We compiled it all into _Standalone Executable Format(.exe)_
+
 
 ### Code Flow:
 ```
@@ -65,7 +66,7 @@ Start:
    	  		|	|__update_pass(): For changing user password of user.
    		  	|	|
    	  		|	|
-   		  	|	|__Redirection function for redirecting to book store (services for customer).
+   		  	|	|__Logout.
    		  	|	|
    	  		|	|
    		  	|	|__Exit.
@@ -100,6 +101,9 @@ Start:
    				|			|__f. Display books of price between 100 to 500
    				|			|__g. Display all the books whose title is 10-20 characters
    				|			|__h. Exit Sub-menu
+   				|
+   				|__Logout.
+				|
    				|
    				|__Exit.
 
